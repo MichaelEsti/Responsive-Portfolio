@@ -670,7 +670,7 @@ h5 {
 }
 
 .switch {
-    cursor: pointer;
+    cursor: default;
 }
 
 .switch:hover .fa-mobile:before {
