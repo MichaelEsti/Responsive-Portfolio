@@ -809,8 +809,10 @@ h5 {
     }
 
     .heroImage {
-        background-size: cover;
-        background-repeat: no-repeat;
-        max-height: 80vh;
+        background-size:cover;
+        background-position:center;
+        background-image: url(img/AdobeStock_311289497\ copy\ 2.jpg);
+        min-height: 100vh;
     }
+
 }
