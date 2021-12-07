@@ -507,7 +507,7 @@ h5 {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .wrap {
         flex-direction: column;
         width: 80%;
@@ -675,4 +675,135 @@ h5 {
 
 .switch:hover .fa-mobile:before {
     content:"\f108";
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+        max-width: 90vw;
+    }
+    .hero-text-container {
+        width: fit-content;
+        min-width: 250px;
+        margin: 0 10px;
+        padding-bottom: 50px;
+    }
+
+    .bg-blur {
+        width: fit-content;
+        min-width: 300px;
+        margin: 0 10px;
+        padding-bottom: 50px;
+    }
+
+    .learn-more-button {
+        padding: 10px 20px;
+        font-size: 1.5rem;
+    }
+
+    h5 {
+        margin-bottom: 50px;
+    }
+
+    .s-quarter {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        float: none;
+        margin-bottom: 50px;
+    }
+
+    .display-flex {
+        flex-flow: column;
+        gap: 30px;
+    }
+
+    .mainContainer {
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        padding: 0;
+        margin-bottom: 15%;
+    }
+
+    .rightContainer {
+        height: fit-content;
+    }
+
+    .leftContainer h5 {
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+
+    .leftContainer {
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    .design-image {
+        margin-top: 50px;
+    }
+
+    .bar-container {
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 20%;
+    }
+
+    .s-xxlarge {
+        font-size: 3rem;
+    }
+
+    .rightContainer-2 {
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+
+    .projectContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 6% 0 6% 0;
+    }
+
+    .tile {
+        margin-bottom: 0 0 20px 0;
+    }
+
+    .rightContainer-2 {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        width: 95%;
+    }
+
+    .leftContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-name {
+        font-size: 5vw;
+    }
 }
