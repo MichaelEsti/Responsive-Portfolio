@@ -47,6 +47,7 @@ li {
 .logo:hover {
     scale: 1.1;
     transition: 0.3s ease;
+    color: #757575;
 }
 
 /* NAVBAR MENU */
@@ -59,6 +60,7 @@ li {
 .menu li:hover {
     scale: 1.1;
     transition: 0.3s ease;
+    color: #757575;
    }
 
 .menu li {
@@ -91,6 +93,7 @@ input[type=checkbox]{
 .menu li:hover {
     display: inline-block;
     transition: 0.3s ease;
+    color: #757575;
    }
 
 .menu li + li {
@@ -182,8 +185,7 @@ input[type=checkbox]:checked ~ .menu{
   }
 
   .learn-more-button:hover {
-      background-color: white;
-      color: black;
+      background-color:#757575;
       scale: 1.1;
       transition: 0.3s ease;
   }
@@ -654,4 +656,23 @@ h5 {
 
 .left-space {
     margin-left: 10px;
+}
+
+.heart:hover {
+	font-size: 150px;
+	animation: beat .3s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.2); }
+}
+
+.switch {
+    cursor: pointer;
+}
+
+.switch:hover .fa-mobile:before {
+    content:"\f108";
 }
