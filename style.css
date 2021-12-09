@@ -821,5 +821,7 @@ h5 {
 @media (max-width: 768px) {
     .heroImage {
         background-image: url(img/Beach-media.png);
+        background-attachment: fixed;
+        height: 100%;
     }
 }
